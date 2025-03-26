@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\CampanasController;
 
 Route::get('/', function () {
     return view('inicio');
@@ -21,3 +22,5 @@ Route::get('/campañas', function () {
 Route::get('/productos', function () {
     return view('productos');
 });
+
+Route::resource('campanas', CampanasController::class);
