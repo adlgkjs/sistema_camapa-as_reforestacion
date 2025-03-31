@@ -13,75 +13,75 @@ class InscripcionesSeeder extends Seeder
     {
         Inscripcion::create([
             'id_campana' => 1, // ID de la campaña
-            'id_usuario' => 4,  // ID del usuario (diferente al admin)
+            'id_user' => 4,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 1, // ID de la campaña
-            'id_usuario' => 5,  // ID del usuario (diferente al admin)
+            'id_user' => 5,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 1, // ID de la campaña
-            'id_usuario' => 6,  // ID del usuario (diferente al admin)
+            'id_user' => 6,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 2, // ID de la campaña
-            'id_usuario' => 4,  // ID del usuario (diferente al admin)
+            'id_user' => 4,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 2, // ID de la campaña
-            'id_usuario' => 5,  // ID del usuario (diferente al admin)
+            'id_user' => 5,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 2, // ID de la campaña
-            'id_usuario' => 6,  // ID del usuario (diferente al admin)
+            'id_user' => 6,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 3, // ID de la campaña
-            'id_usuario' => 4,  // ID del usuario (diferente al admin)
+            'id_user' => 4,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 3, // ID de la campaña
-            'id_usuario' => 5,  // ID del usuario (diferente al admin)
+            'id_user' => 5,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 3, // ID de la campaña
-            'id_usuario' => 6,  // ID del usuario (diferente al admin)
+            'id_user' => 6,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 4, // ID de la campaña
-            'id_usuario' => 4,  // ID del usuario (diferente al admin)
+            'id_user' => 4,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 4, // ID de la campaña
-            'id_usuario' => 5,  // ID del usuario (diferente al admin)
+            'id_user' => 5,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 4, // ID de la campaña
-            'id_usuario' => 6,  // ID del usuario (diferente al admin)
+            'id_user' => 6,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 5, // ID de la campaña
-            'id_usuario' => 4,  // ID del usuario (diferente al admin)
+            'id_user' => 4,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 5, // ID de la campaña
-            'id_usuario' => 5,  // ID del usuario (diferente al admin)
+            'id_user' => 5,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 5, // ID de la campaña
-            'id_usuario' => 6,  // ID del usuario (diferente al admin)
+            'id_user' => 6,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 6, // ID de la campaña
-            'id_usuario' => 4,  // ID del usuario (diferente al admin)
+            'id_user' => 4,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 6, // ID de la campaña
-            'id_usuario' => 5,  // ID del usuario (diferente al admin)
+            'id_user' => 5,  // ID del usuario (diferente al admin)
         ]);
         Inscripcion::create([
             'id_campana' => 6, // ID de la campaña
-            'id_usuario' => 6,  // ID del usuario (diferente al admin)
+            'id_user' => 6,  // ID del usuario (diferente al admin)
         ]);
     }
 }

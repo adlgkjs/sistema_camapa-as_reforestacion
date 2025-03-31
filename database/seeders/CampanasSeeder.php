@@ -22,6 +22,7 @@ class CampanasSeeder extends Seeder
             'ubicacion' => 'Parque Central, Ciudad Verde',
             'telefono' => '5551234567',
             'correo' => 'contacto@reforestacion.com',
+            'img' => 'c-1.webp',
             'id_user' => 2
         ]);
 
@@ -33,6 +34,7 @@ class CampanasSeeder extends Seeder
             'ubicacion' => 'Playa Azul, Costa del Sol',
             'telefono' => '5559876543',
             'correo' => 'info@limpiezaplayas.com',
+            'img' => 'c-2.webp',
             'id_user' => 2
         ]);
 
@@ -44,6 +46,7 @@ class CampanasSeeder extends Seeder
             'ubicacion' => 'Escuela Primaria Futuro Verde',
             'telefono' => '5554567890',
             'correo' => 'escuela@futuroverde.com',
+            'img' => 'c-3.jpg',
             'id_user' => 2
         ]);
 
@@ -55,6 +58,7 @@ class CampanasSeeder extends Seeder
             'ubicacion' => 'Centro Comunitario EcoVida',
             'telefono' => '5556543210',
             'correo' => 'reciclaje@ecovida.com',
+            'img' => 'c-4.jpg',
             'id_user' => 3
         ]);
 
@@ -66,6 +70,7 @@ class CampanasSeeder extends Seeder
             'ubicacion' => 'Universidad Ambiental',
             'telefono' => '5551112233',
             'correo' => 'eventos@uniambiental.com',
+            'img' => 'c-5.jpg',
             'id_user' => 3
         ]);
 
@@ -77,6 +82,7 @@ class CampanasSeeder extends Seeder
             'ubicacion' => 'Centro de Desarrollo Sustentable',
             'telefono' => '5552233445',
             'correo' => 'huertos@desarrollosustentable.com',
+            'img' => 'c-6.jpg',
             'id_user' => 3
         ]);
     }

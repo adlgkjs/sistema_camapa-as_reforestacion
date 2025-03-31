@@ -17,6 +17,7 @@ return new class extends Migration
             $table->string('ubicacion');
             $table->string('telefono', 15);
             $table->string('correo');
+            $table->string('img');
             $table->foreignId('id_user')->constrained('users')->onDelete('cascade');
             $table->timestamps();
         });    

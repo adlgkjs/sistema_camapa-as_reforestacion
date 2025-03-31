@@ -16,6 +16,12 @@ class CampanasController extends Controller
         // return view('campanas.index', compact('campanas'));
     }
 
+    public function ultimasCampanas()
+    {
+        $campanas = Campana::latest()->take(3)->get();
+        return view('inicio', compact('campanas'));
+    }
+
     public function create() {}
 
     public function store(Request $request)

@@ -1,0 +1,60 @@
+:root {
+    --color-verde: #1abc9c;
+}
+
+.color-verde{
+    color: var(--color-verde)
+}
+.fondo-verde{
+    background: var(--color-verde) !important;
+}
+.borde-verde{
+    border: #1abc9c !important;
+}
+.borde-verde:hover{
+    background: #149178 !important;
+}
+
+.inicio{
+    background-image: url('/assets/img/ref.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%; /* Asegura que el div ocupe todo el ancho disponible */
+    min-height: 80vh; /* Establece un alto mínimo (ajústalo según necesidad) */
+    z-index: 100;
+  }
+  .mt-10{
+    margin-top: 100px !important;
+  }
+  .fs-50{
+    font-size: 100px;
+  }
+  .border-green{
+    text-shadow: 
+        -2px -2px 0 #1abc9c, 
+         2px -2px 0 #1abc9c, 
+        -2px  2px 0 #1abc9c, 
+         2px  2px 0 #1abc9c;
+  }
+  .img-card-container{
+    width: auto;
+    height: 250px;
+    overflow: hidden;
+  }
+  .img-card-container img {
+    width: 100%;
+    height: 100%;  /* La imagen se ajusta al 100% del contenedor en altura y ancho */
+    object-fit: cover; /* Hace que la imagen cubra completamente el área del contenedor */
+}
+
+.img-container-modal{
+    width: auto;
+    height: 200px;
+    overflow: hidden;
+  }
+  .img-container-modal img {
+    width: 100%;
+    height: 100%;  /* La imagen se ajusta al 100% del contenedor en altura y ancho */
+    object-fit: cover; /* Hace que la imagen cubra completamente el área del contenedor */
+}
