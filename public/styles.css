@@ -21,11 +21,70 @@
     background-position: center; /* Centra la imagen */
     background-repeat: no-repeat; /* Evita que la imagen se repita */
     width: 100%; /* Asegura que el div ocupe todo el ancho disponible */
-    min-height: 80vh; /* Establece un alto mínimo (ajústalo según necesidad) */
+    min-height: 70vh; /* Establece un alto mínimo (ajústalo según necesidad) */
     z-index: 100;
+  }
+  .header-nosotros{
+    background-image: url('/assets/img/2.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%; /* Asegura que el div ocupe todo el ancho disponible */
+    min-height: 70vh; /* Establece un alto mínimo (ajústalo según necesidad) */
+    z-index: 100;
+  }
+  .header-campanas{
+    background-image: url('/assets/img/3.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%; /* Asegura que el div ocupe todo el ancho disponible */
+    min-height: 70vh; /* Establece un alto mínimo (ajústalo según necesidad) */
+    z-index: 100;
+  }
+  .header-productos{
+    background-image: url('/assets/img/4.webp'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%; /* Asegura que el div ocupe todo el ancho disponible */
+    min-height: 70vh; /* Establece un alto mínimo (ajústalo según necesidad) */
+    z-index: 100;
+  }
+  .header-contacto{
+    background-image: url('/assets/img/5.jpg'); /* Ruta de la imagen */
+    background-size: cover; /* Ajusta la imagen para que cubra todo el div */
+    background-position: center; /* Centra la imagen */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    width: 100%; /* Asegura que el div ocupe todo el ancho disponible */
+    min-height: 70vh; /* Establece un alto mínimo (ajústalo según necesidad) */
+    z-index: 100;
+  }
+
+
+  .object-fit-cover{
+    object-fit: cover;
   }
   .mt-10{
     margin-top: 100px !important;
+  }
+  .text-justify{
+    text-align: justify;
+  }
+  .pt-180{
+    padding-top: 180px !important;
+  }
+  .fs-30{
+    font-size: 30px;
+  }
+  .h-400{
+    height: 400px;
+  }
+  .h-300{
+    height: 300px;
+  }
+  .fs-18{
+    font-size: 18px;
   }
   .fs-50{
     font-size: 100px;

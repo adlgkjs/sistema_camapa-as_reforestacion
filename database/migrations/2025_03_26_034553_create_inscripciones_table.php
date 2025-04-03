@@ -11,7 +11,10 @@ return new class extends Migration
         Schema::create('inscripciones', function (Blueprint $table) {
             $table->id();
             $table->foreignId('id_campana')->constrained('campanas')->onDelete('cascade');
-            $table->foreignId('id_user')->constrained('users')->onDelete('cascade');
+            $table->string('nombre');
+            $table->string('edad');
+            $table->string('telefono');
+            $table->string('correo');
             $table->timestamps();
         });
     }

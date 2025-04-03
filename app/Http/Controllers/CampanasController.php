@@ -5,21 +5,29 @@ namespace App\Http\Controllers;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use App\Models\Campana;
+use App\Models\Inscripcion;
 use Illuminate\Support\Facades\Auth;
 
 class CampanasController extends Controller
 {
     public function index()
     {
-        $campanas = Campana::all();
-        return response()->json($campanas);
-        // return view('campanas.index', compact('campanas'));
+        $campanas = Campana::orderBy('fecha', 'asc')->get();
+        return view('campañas', compact('campanas'));
     }
 
     public function ultimasCampanas()
     {
         $campanas = Campana::latest()->take(3)->get();
         return view('inicio', compact('campanas'));
+    }
+
+    public function show(string $id)
+    {
+        $campana = Campana::findOrFail($id);
+        $personas = Inscripcion::where('id_campana', $id)->get();
+
+        return view('detalleCampana', compact('campana', 'personas'));
     }
 
     public function create() {}
@@ -47,13 +55,7 @@ class CampanasController extends Controller
         ]);
     }
 
-    public function show(string $id)
-    {
-        $campana = Campana::findOrFail($id);
-        return response()->json($campana);
-
-        //return view('campanas.show', compact('campana'));
-    }
+    
 
     public function edit(string $id) {}
 

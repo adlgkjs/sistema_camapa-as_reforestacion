@@ -10,15 +10,18 @@ class Inscripcion extends Model
 
     protected $fillable = [
         'id_campana',
-        'id_usuario',
+        'nombre',
+        'edad',
+        'telefono',
+        'correo',
     ];
 
     public function campana()
     {
         return $this->belongsTo(Campana::class, 'id_campana');
     }
-    public function usuario()
-    {
-        return $this->belongsTo(User::class, 'id_user');
-    }
+    // public function usuario()
+    // {
+    //     return $this->belongsTo(User::class, 'id_user');
+    // }
 }
